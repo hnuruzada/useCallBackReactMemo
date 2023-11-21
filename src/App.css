@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+.inputRef{background-color: red;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +14,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.open{
+  height: 100%;
+}
+.close{
+  height: 0;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +42,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.cartlar{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.allProduct{
+  display: flex;
+}
+.container{
+  display: flex;
+  flex-direction: column;
 }
